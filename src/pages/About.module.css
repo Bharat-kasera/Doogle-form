@@ -1,0 +1,140 @@
+.about{
+    display: flex;
+    justify-content: space-around;
+    overflow-x: hidden;
+    gap: 2rem;
+    align-content: center;
+    align-items: center;
+
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.txt span{
+    font-size: 1.8125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.66363rem;
+}
+.txt p{
+    width: 500px;
+    padding-top: 0.5rem;
+
+}
+.image img{
+    width: 550px;
+}
+
+.txt h1{
+font-size: 3.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: 4.94488rem;
+padding-bottom: 1rem;
+}
+
+.btn{
+    border-radius: 3.28844rem;
+    border: 0px solid #726C98;
+    background: #F4F7FF;
+    box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.15385;
+    margin: 0;
+    outline: none;
+    padding: 11px 1.2em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    width: fit-content;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: rgb(201, 232, 255);
+}
+
+.btn:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.btn:active {
+  background-color: #0064bd;
+  box-shadow: none;
+}
+
+.image{
+  width: 500px;
+}
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+
+}
+
+/* md */
+@media (max-width: 768px) {
+
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .about{
+    flex-direction: column;
+    overflow-x: hidden;
+    gap: 2rem;
+    align-content: center;
+    align-items: center;
+}
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .image img{
+    width: 350px;
+}
+.image{
+  width: 400px;
+}
+.txt span{
+  font-size: 1.8125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.66363rem;
+}
+.txt p{
+  width: auto;
+  padding-top: 0.5rem;
+
+}
+.div1{
+  padding: 0 1rem;
+}
+.txt h1{
+  font-size: 2.5rem;
+  line-height: 3rem;
+  }
+}
+  @media (max-width: 385px) {
+  
+  }

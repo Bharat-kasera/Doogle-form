@@ -24,7 +24,7 @@ function Navbar(){
 
     return (
         <div className="navbar container">
-            <a href="/" className="brand">Formable</a>
+            <a href="/" className="brand">Doodle Form</a>
             <nav className="nav">
                 { user ? (
                     <span>
